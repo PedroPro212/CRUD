@@ -1,0 +1,11 @@
+CREATE DATABASE urna;
+
+USE urna;
+
+CREATE TABLE urna(
+    id int PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    nome varchar(200) NOT NULL,
+    titulo varchar(12),
+    Zona varchar(4),
+    Secao varchar(4)
+)
